@@ -1,0 +1,57 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+p{
+    margin: 0;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.container{
+    width: 90%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    max-width: 375px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.green-p{
+    color: hsl(75, 94%, 57%);
+}
+
+.bold{
+    font-weight: 700;
+}
+
+button{
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    width: 100%;
+    padding: 1em;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: background-color .30s;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+
